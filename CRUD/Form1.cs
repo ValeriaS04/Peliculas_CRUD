@@ -270,7 +270,7 @@ namespace CRUD
             {
                 byte[] imgBytes = (byte[])fila.Cells["Imagen"].Value;
 
-                imagenSeleccionada = imgBytes; // 🔥 ESTA LÍNEA ES LA CLAVE
+                imagenSeleccionada = imgBytes; 
 
                 using (MemoryStream ms = new MemoryStream(imgBytes))
                 {
